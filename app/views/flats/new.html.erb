@@ -1,0 +1,15 @@
+<h1>Add a new flat</h1>
+
+<div>
+  <%= form_for (@flat) do |t| %>
+    <%= t.label :name %>
+    <%= t.text_field :name %>
+
+    <%= t.label :address %>
+    <%= t.text_field :address %>
+
+  <%= t.submit %>
+  <% end %>
+</div>
+
+<%= link_to "back to flats", flats_path, class: "btn btn-primary" %>

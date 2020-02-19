@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+}
+
+.container-body {
+  display: flex;
+  flex-flow: wrap;
+  width: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container-card {
+  display: flex;
+  width: 45%;
+  margin: 10px;
+  align-items: center;
+}
+
